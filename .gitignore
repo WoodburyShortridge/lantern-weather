@@ -3,6 +3,9 @@
 # IDE
 .idea/
 
+# Secrets
+.env
+
 # dependencies
 /node_modules
 /.pnp
