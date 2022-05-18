@@ -10,7 +10,9 @@ interface Props {
 const Dash = ({locations, removeLocation}: Props) => {
 	return (
 		<Container role={'region'} grid={!!locations.length}>
-			{!locations.length && <HelpText>Select locations from map or click use location <br /> to add new weather cards to your dashboard</HelpText>}
+			{!locations.length &&
+				<HelpText>Select locations from map or click use location <br/> to add new weather cards to your
+					dashboard</HelpText>}
 			{
 				locations.map(location => (
 					<Card

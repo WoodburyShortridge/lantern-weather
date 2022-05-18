@@ -1,4 +1,5 @@
 import {CSSProperties} from 'react'
+import {COLORS} from '../../../utilities/constants'
 
 interface Props {
 	style?: CSSProperties
@@ -7,7 +8,7 @@ interface Props {
 const Separator = ({style = {margin: `20px 0`}}: Props) => (
 	<hr
 		style={{
-			borderTop: `1px solid #000000`,
+			borderTop: `1px solid ${COLORS.black}`,
 			width: `100%`,
 			...style
 		}}

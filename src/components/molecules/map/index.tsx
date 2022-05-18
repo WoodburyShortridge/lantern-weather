@@ -1,16 +1,16 @@
 import {useEffect, useRef} from 'react'
 import MapGL, {MapRef, Marker} from 'react-map-gl'
 import mapLibreGl, {MapMouseEvent} from 'maplibre-gl'
-import "maplibre-gl/dist/maplibre-gl.css";
+import 'maplibre-gl/dist/maplibre-gl.css'
 import MarkerIcon from '../../atoms/icons/marker'
 import {Expandable} from './styles'
 import {LocationDoc} from '../../../app'
 import {uid} from '../../../utilities/helpers/uid'
 
 /**
-* MapLibre GL JS is a community led fork derived from mapbox-gl-js
-* prior to their switch to a non-OSS license
-*/
+ * MapLibre GL JS is a community led fork derived from mapbox-gl-js
+ * prior to their switch to a non-OSS license
+ */
 
 interface Props {
 	addLocation: (l: LocationDoc) => void
@@ -19,7 +19,7 @@ interface Props {
 }
 
 const Map = ({addLocation, locations, visible}: Props) => {
-	const ref = useRef<MapRef | null>(null);
+	const ref = useRef<MapRef | null>(null)
 	const isRef = !!ref.current
 
 	useEffect(() => {
@@ -35,7 +35,7 @@ const Map = ({addLocation, locations, visible}: Props) => {
 	}, [addLocation, isRef])
 
 	return (
-		<Expandable visible={visible} aria-hidden={!visible} >
+		<Expandable visible={visible} aria-hidden={!visible}>
 			<MapGL
 				ref={ref}
 				mapLib={mapLibreGl}
@@ -50,7 +50,7 @@ const Map = ({addLocation, locations, visible}: Props) => {
 							latitude={l.latitude}
 							anchor="bottom"
 						>
-							<MarkerIcon />
+							<MarkerIcon/>
 						</Marker>
 					))
 				}

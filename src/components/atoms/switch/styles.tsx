@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import {COLORS} from '../../../utilities/constants'
 
 const Container = styled.div`
 	display: flex;
@@ -25,7 +26,7 @@ const Slider = styled.span`
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: black;
+  background-color: ${COLORS.black};
   transition: 0.4s;
   border-radius: 34px;
 	&:before {
@@ -35,7 +36,7 @@ const Slider = styled.span`
     width: 18px;
     left: 4px;
     bottom: 4px;
-    background-color: white;
+    background-color: ${COLORS.white};
     border-radius: 50%;
     transition: transform 250ms;
     transform: translateX(${(props: {checked: boolean}) => props.checked ? '18px' : 0});
@@ -47,7 +48,7 @@ const Option = styled.span`
   font-weight: 400;
   font-size: 12px;
   line-height: 12px;
-	color: #000000;
+	color: ${COLORS.black};
 	opacity: ${(props: {active: boolean}) => props.active ? 1 : 0.5};
   transition: opacity 250ms;
 	cursor: ${(props: {active: boolean}) => props.active ? 'default' : 'pointer'};

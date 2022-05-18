@@ -10,7 +10,7 @@ import Switch from '../../atoms/switch'
 import Spinner from '../../atoms/icons/spinner'
 import useIsMobile from '../../../utilities/hooks/useIsMobile'
 import {Units} from '../../../context'
-import {UnitsEnum} from '../../../utilities/constants'
+import {COLORS, UnitsEnum} from '../../../utilities/constants'
 
 interface Props {
 	addLocation: (l: LocationDoc) => void
@@ -36,7 +36,7 @@ const Controls = ({addLocation, locations}: Props) => {
 				<Buttons>
 					<Button
 						label={!isMobile ? 'Select locations' : ''}
-						icon={<MapIcon fill={active ? 'white' : 'black'} />}
+						icon={<MapIcon fill={active ? COLORS.white : COLORS.black }/>}
 						ariaLabel={'Select locations'}
 						onClick={() => setActive(!active)}
 						style={{marginRight: 10}}
@@ -44,7 +44,7 @@ const Controls = ({addLocation, locations}: Props) => {
 					/>
 					<Button
 						label={!isMobile ? 'Use my location' : null}
-						icon={loading ? <Spinner /> : <Location />}
+						icon={loading ? <Spinner/> : <Location/>}
 						ariaLabel={'Use my location'}
 						onClick={askLocation}
 						disabled={loading}

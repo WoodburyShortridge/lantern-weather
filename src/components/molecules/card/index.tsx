@@ -1,4 +1,4 @@
-import {Container, Header, Name, Body, Icon, Description, ReportsScroll, Reports, Report} from './styles'
+import {Body, Container, Description, Header, Icon, Name, Report, Reports, ReportsScroll} from './styles'
 import {Main} from '../../../api'
 import Button from '../../atoms/button'
 import X from '../../atoms/icons/x'
@@ -46,7 +46,7 @@ const Card = ({location, removeLocation}: Props) => {
 	return (
 		<Container>
 			<Header>
-				<Name>{weatherReport.name || `${weatherReport.coord.lat}, ${weatherReport.coord.lon}` }</Name>
+				<Name>{weatherReport.name || `${weatherReport.coord.lat}, ${weatherReport.coord.lon}`}</Name>
 				<Button
 					ariaLabel={'remove location'}
 					onClick={() => removeLocation(location.id)}
@@ -60,7 +60,7 @@ const Card = ({location, removeLocation}: Props) => {
 					alt={weather.description}
 				/>
 				<Description>{capitalize(weather.description)}</Description>
-				<Separator />
+				<Separator/>
 				<ReportsScroll>
 					<Reports>
 						{

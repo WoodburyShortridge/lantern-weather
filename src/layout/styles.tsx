@@ -13,10 +13,10 @@ const gridCol = `
 `
 
 const Main = styled.main`
-	${gridCols};
+  ${gridCols};
   display: grid;
   gap: 0;
-	margin-bottom: 60px;
+  margin-bottom: 60px;
 `
 
 const GlobalStyle = createGlobalStyle`
@@ -26,4 +26,4 @@ const GlobalStyle = createGlobalStyle`
   }
 `
 
-export { Main, GlobalStyle, gridCols, gridCol }
+export {Main, GlobalStyle, gridCols, gridCol}

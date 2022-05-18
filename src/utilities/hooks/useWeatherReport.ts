@@ -20,9 +20,9 @@ const useWeatherReport = (location: LocationDoc, units: UnitsEnum) => {
 			if (res.cod === 200) setWeatherReport(res)
 			else setError(res)
 			setLoading(false)
-		});
+		})
 	}, [location, units])
-	return { weatherReport, loading, error }
+	return {weatherReport, loading, error}
 }
 
 export default useWeatherReport

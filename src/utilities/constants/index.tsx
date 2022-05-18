@@ -29,4 +29,10 @@ const UNITS_MAP = {
 	}
 }
 
-export {BREAKPOINT, LOCATION_THRESHOLD, UNITS_MAP, UnitsEnum }
+const COLORS = {
+	white: '#ffffff',
+	black: '#000000',
+	grey: '#00000070'
+}
+
+export {BREAKPOINT, COLORS, LOCATION_THRESHOLD, UNITS_MAP, UnitsEnum }

@@ -7,6 +7,7 @@ import {UnitsEnum} from '../utilities/constants'
  */
 export const Units = createContext({
 	units: UnitsEnum.metric,
-	setUnits: (u: UnitsEnum) => {}
+	setUnits: (u: UnitsEnum) => {
+	}
 })
 export const UnitsProvider = Units.Provider

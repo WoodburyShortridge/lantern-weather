@@ -22,7 +22,7 @@ export interface WeatherReport {
 	name: string
 	main: Main
 	weather: Weather[]
-	coord: {lat: number, lon: number}
+	coord: { lat: number, lon: number }
 	cod: 200
 	locationId: string
 	units: UnitsEnum
@@ -33,7 +33,7 @@ export interface WeatherError {
 	message: string
 }
 
-export const getWeatherReport = async ({location, units}: {location: LocationDoc, units: UnitsEnum}): Promise<WeatherReport | WeatherError> => {
+export const getWeatherReport = async ({location, units}: { location: LocationDoc, units: UnitsEnum }): Promise<WeatherReport | WeatherError> => {
 	try {
 		const res = await fetch(`
 			https://api.openweathermap.org/data/2.5/weather?
@@ -41,9 +41,9 @@ export const getWeatherReport = async ({location, units}: {location: LocationDoc
 			&lon=${location.longitude}
 			&units=${units}
 			&appid=${process.env.REACT_APP_API_KEY}
-		`);
+		`)
 		const data = await res.json()
-		return { ...data, units: units }
+		return {...data, units: units}
 	} catch (e) {
 		return {cod: 400, message: 'Fetch error'}
 	}

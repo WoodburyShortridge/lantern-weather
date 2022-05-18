@@ -1,13 +1,14 @@
 import styled from 'styled-components'
+import {COLORS} from '../../../utilities/constants'
 
 const Container = styled.article`
-  border: 1px solid #000000;
+  border: 1px solid ${COLORS.black};
   border-radius: 4px;
 `
 
 const Header = styled.div`
   height: 40px;
-  background: #000000;
+  background: ${COLORS.black};
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -19,7 +20,7 @@ const Name = styled.h3`
   font-weight: 400;
   font-size: 20px;
   line-height: 20px;
-  color: #FFFFFF;
+  color: ${COLORS.white};
   margin: 0;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -43,7 +44,7 @@ const Description = styled.p`
   font-weight: 400;
   font-size: 18px;
   line-height: 18px;
-  color: #000000;
+  color: ${COLORS.black};
   margin: 0;
 `
 
@@ -61,12 +62,12 @@ const Reports = styled.div`
   }
 
   &::-webkit-scrollbar-track {
-    background-color: white;
+    background-color: ${COLORS.white};
   }
 
   &&::-webkit-scrollbar-thumb {
     height: 5px;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: ${COLORS.grey};
     border-radius: 4px;
   }
 
@@ -83,7 +84,7 @@ const Report = styled.div`
     font-weight: 400;
     font-size: 24px;
     line-height: 24px;
-    color: #000000;
+    color: ${COLORS.black};
     margin: 0 0 5px 0;
     white-space: nowrap;
   }
@@ -93,8 +94,7 @@ const Report = styled.div`
     font-weight: 400;
     font-size: 12px;
     line-height: 12px;
-    color: #000000;
-    opacity: 0.5;
+    color: ${COLORS.grey};
     margin: 0;
     white-space: nowrap;
   }

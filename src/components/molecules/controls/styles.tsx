@@ -2,7 +2,7 @@ import styled from 'styled-components'
 import {gridCol} from '../../../layout/styles'
 
 const Container = styled.section`
-	${gridCol};
+  ${gridCol};
   grid-row: 2;
 `
 
@@ -17,4 +17,4 @@ const Buttons = styled.div`
   display: flex;
 `
 
-export { Container, Header, Buttons }
+export {Container, Header, Buttons}

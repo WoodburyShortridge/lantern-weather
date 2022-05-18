@@ -1,4 +1,4 @@
-import { GlobalStyle, Main } from './styles'
+import {GlobalStyle, Main} from './styles'
 
 interface Props {
 	children: JSX.Element[]
@@ -7,7 +7,7 @@ interface Props {
 const Layout = ({children}: Props) => {
 	return (
 		<Main>
-			<GlobalStyle />
+			<GlobalStyle/>
 			{children}
 		</Main>
 	)

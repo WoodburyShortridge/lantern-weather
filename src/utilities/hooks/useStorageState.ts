@@ -7,7 +7,7 @@
  * @return [value, setValue]
  */
 
-import {useState, useEffect, Dispatch, SetStateAction} from 'react'
+import {Dispatch, SetStateAction, useEffect, useState} from 'react'
 
 const getLocalStorage = <T>(key: string): T | undefined => {
 	const store = localStorage.getItem(key)
@@ -22,13 +22,13 @@ const getLocalStorage = <T>(key: string): T | undefined => {
 const useStorageState = <T>(key: string, defaultValue: T | (() => T)): [T, Dispatch<SetStateAction<T>>] => {
 	const [value, setValue] = useState<T>(
 		getLocalStorage<T>(key) || defaultValue
-	);
+	)
 
 	useEffect(() => {
-		localStorage.setItem(key, JSON.stringify(value));
-	}, [key, value]);
+		localStorage.setItem(key, JSON.stringify(value))
+	}, [key, value])
 
-	return [value, setValue];
+	return [value, setValue]
 }
 
-export { useStorageState }
+export {useStorageState}
