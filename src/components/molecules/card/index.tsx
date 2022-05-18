@@ -83,4 +83,10 @@ const Card = ({location, removeLocation}: Props) => {
 	)
 }
 
-export default memo(Card)
+// prevent unnecessary re-renders w/ memo
+// just need a simple comp here on loc id
+const propsAreEqual = (prevCard: Props, nextCard: Props) => {
+	return prevCard.location.id === nextCard.location.id
+}
+
+export default memo(Card, propsAreEqual)
