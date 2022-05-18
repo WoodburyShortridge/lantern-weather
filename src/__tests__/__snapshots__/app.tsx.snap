@@ -1,0 +1,380 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App renders correctly 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <main
+        class="sc-bczRLJ ecileu"
+      >
+        <header
+          class="sc-gsnTZi gNHQHz"
+        >
+          <h1
+            class="sc-dkzDqf fGRmGp"
+          >
+            Lantern Weather
+          </h1>
+        </header>
+        <section
+          class="sc-hKMtZM eboUBP"
+          role="region"
+        >
+          <div
+            class="sc-eCYdqJ loMBlq"
+          >
+            <div
+              class="sc-jSMfEi ydOJn"
+            >
+              <button
+                aria-label="Select locations"
+                aria-selected="false"
+                class="sc-iBkjds cukANr"
+                style="margin-right: 10px;"
+              >
+                <span>
+                  Select locations
+                </span>
+                <svg
+                  fill="none"
+                  height="14"
+                  viewBox="0 0 14 14"
+                  width="14"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M4.37725 0.660171C4.54659 0.563405 4.75309 0.557673 4.92754 0.644897L9.31498 2.83861L13.1273 0.660171C13.3078 0.557004 13.5296 0.557744 13.7095 0.662116C13.8893 0.766487 14 0.958705 14 1.16665V10.5C14 10.7093 13.8878 10.9026 13.7061 11.0065L9.62275 13.3398C9.45341 13.4366 9.24691 13.4423 9.07246 13.3551L4.68502 11.1613L0.872748 13.3398C0.692204 13.443 0.470393 13.4422 0.290543 13.3378C0.110692 13.2335 0 13.0413 0 12.8333V3.49998C0 3.29065 0.112167 3.09736 0.293919 2.9935L4.37725 0.660171ZM4.68502 1.82801L1.16667 3.8385V11.8281L4.37725 9.9935C4.54659 9.89674 4.75309 9.89101 4.92754 9.97823L9.31498 12.1719L12.8333 10.1615V2.17183L9.62275 4.00645C9.45341 4.10322 9.24691 4.10895 9.07246 4.02173L4.68502 1.82801Z"
+                    fill="black"
+                    fill-rule="evenodd"
+                  />
+                  <path
+                    clip-rule="evenodd"
+                    d="M4.66671 0.583313C4.98887 0.583313 5.25004 0.84448 5.25004 1.16665V10.5C5.25004 10.8221 4.98887 11.0833 4.66671 11.0833C4.34454 11.0833 4.08337 10.8221 4.08337 10.5V1.16665C4.08337 0.84448 4.34454 0.583313 4.66671 0.583313Z"
+                    fill="black"
+                    fill-rule="evenodd"
+                  />
+                  <path
+                    clip-rule="evenodd"
+                    d="M9.33333 2.91669C9.6555 2.91669 9.91667 3.17785 9.91667 3.50002V12.8334C9.91667 13.1555 9.6555 13.4167 9.33333 13.4167C9.01117 13.4167 8.75 13.1555 8.75 12.8334V3.50002C8.75 3.17785 9.01117 2.91669 9.33333 2.91669Z"
+                    fill="black"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </button>
+              <button
+                aria-label="Use my location"
+                aria-selected="false"
+                class="sc-iBkjds cukANr"
+              >
+                <span>
+                  Use my location
+                </span>
+                <svg
+                  fill="none"
+                  height="14"
+                  viewBox="0 0 14 15"
+                  width="14"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g
+                    clip-path="url(#location-clip)"
+                  >
+                    <path
+                      clip-rule="evenodd"
+                      d="M7 1.66667C5.76232 1.66667 4.57534 2.15833 3.70017 3.0335C2.825 3.90867 2.33333 5.09566 2.33333 6.33333C2.33333 8.14053 3.50918 9.89415 4.79847 11.2551C5.43119 11.9229 6.06589 12.4697 6.54306 12.8497C6.72065 12.9911 6.87576 13.1089 7 13.2007C7.12424 13.1089 7.27935 12.9911 7.45694 12.8497C7.93411 12.4697 8.56881 11.9229 9.20153 11.2551C10.4908 9.89415 11.6667 8.14053 11.6667 6.33333C11.6667 5.09566 11.175 3.90867 10.2998 3.0335C9.42466 2.15833 8.23768 1.66667 7 1.66667ZM7 13.9167C6.67643 14.402 6.67628 14.4019 6.67611 14.4018L6.67444 14.4007L6.67056 14.3981L6.65719 14.3891C6.64583 14.3813 6.62963 14.3703 6.60891 14.3559C6.56748 14.3272 6.50794 14.2854 6.43288 14.2312C6.28282 14.1228 6.07038 13.9646 5.81631 13.7623C5.30911 13.3584 4.63131 12.775 3.95153 12.0574C2.61582 10.6475 1.16667 8.60947 1.16667 6.33333C1.16667 4.78624 1.78125 3.30251 2.87521 2.20854C3.96917 1.11458 5.4529 0.5 7 0.5C8.5471 0.5 10.0308 1.11458 11.1248 2.20854C12.2188 3.30251 12.8333 4.78624 12.8333 6.33333C12.8333 8.60947 11.3842 10.6475 10.0485 12.0574C9.36869 12.775 8.69089 13.3584 8.18369 13.7623C7.92962 13.9646 7.71718 14.1228 7.56712 14.2312C7.49206 14.2854 7.43253 14.3272 7.39109 14.3559C7.37037 14.3703 7.35417 14.3813 7.34282 14.3891L7.32945 14.3981L7.32556 14.4007L7.32433 14.4015C7.32416 14.4016 7.32358 14.402 7 13.9167ZM7 13.9167L7.32358 14.402C7.12763 14.5327 6.87205 14.5324 6.67611 14.4018L7 13.9167Z"
+                      fill="black"
+                      fill-rule="evenodd"
+                    />
+                    <path
+                      clip-rule="evenodd"
+                      d="M7 5.16667C6.35567 5.16667 5.83333 5.689 5.83333 6.33333C5.83333 6.97767 6.35567 7.5 7 7.5C7.64433 7.5 8.16667 6.97767 8.16667 6.33333C8.16667 5.689 7.64433 5.16667 7 5.16667ZM4.66667 6.33333C4.66667 5.04467 5.71134 4 7 4C8.28867 4 9.33333 5.04467 9.33333 6.33333C9.33333 7.622 8.28867 8.66667 7 8.66667C5.71134 8.66667 4.66667 7.622 4.66667 6.33333Z"
+                      fill="black"
+                      fill-rule="evenodd"
+                    />
+                  </g>
+                  <defs>
+                    <clippath
+                      id="location-clip"
+                    >
+                      <rect
+                        fill="white"
+                        height="14"
+                        transform="translate(0 0.5)"
+                        width="14"
+                      />
+                    </clippath>
+                  </defs>
+                </svg>
+              </button>
+            </div>
+            <div
+              class="sc-ftvSup dgXOgY"
+            >
+              <span
+                aria-hidden="true"
+                class="sc-iqcoie dqjBXn"
+                style="padding-right: 5px;"
+              >
+                Imperial
+              </span>
+              <label
+                class="sc-papXJ QXzfr"
+              >
+                <input
+                  aria-label="metric"
+                  checked=""
+                  class="sc-jqUVSM ZKOQe"
+                  type="checkbox"
+                />
+                <span
+                  class="sc-kDDrLX hFBZxa"
+                />
+              </label>
+              <span
+                aria-hidden="true"
+                class="sc-iqcoie ifRSZF"
+                style="padding-left: 5px;"
+              >
+                Metric
+              </span>
+            </div>
+          </div>
+          <div
+            aria-hidden="true"
+            class="sc-gKXOVf iPoBFP"
+          >
+            <div
+              style="position: relative; width: 100%; height: 400px; border-radius: 4px;"
+            />
+          </div>
+        </section>
+        <section
+          class="sc-evZas hVrVMl"
+          role="region"
+        >
+          <p
+            class="sc-breuTD jaGWVO"
+          >
+            Select locations from map or click use location 
+            <br />
+             to add new weather cards to your dashboard
+          </p>
+        </section>
+      </main>
+    </div>
+  </body>,
+  "container": <div>
+    <main
+      class="sc-bczRLJ ecileu"
+    >
+      <header
+        class="sc-gsnTZi gNHQHz"
+      >
+        <h1
+          class="sc-dkzDqf fGRmGp"
+        >
+          Lantern Weather
+        </h1>
+      </header>
+      <section
+        class="sc-hKMtZM eboUBP"
+        role="region"
+      >
+        <div
+          class="sc-eCYdqJ loMBlq"
+        >
+          <div
+            class="sc-jSMfEi ydOJn"
+          >
+            <button
+              aria-label="Select locations"
+              aria-selected="false"
+              class="sc-iBkjds cukANr"
+              style="margin-right: 10px;"
+            >
+              <span>
+                Select locations
+              </span>
+              <svg
+                fill="none"
+                height="14"
+                viewBox="0 0 14 14"
+                width="14"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  clip-rule="evenodd"
+                  d="M4.37725 0.660171C4.54659 0.563405 4.75309 0.557673 4.92754 0.644897L9.31498 2.83861L13.1273 0.660171C13.3078 0.557004 13.5296 0.557744 13.7095 0.662116C13.8893 0.766487 14 0.958705 14 1.16665V10.5C14 10.7093 13.8878 10.9026 13.7061 11.0065L9.62275 13.3398C9.45341 13.4366 9.24691 13.4423 9.07246 13.3551L4.68502 11.1613L0.872748 13.3398C0.692204 13.443 0.470393 13.4422 0.290543 13.3378C0.110692 13.2335 0 13.0413 0 12.8333V3.49998C0 3.29065 0.112167 3.09736 0.293919 2.9935L4.37725 0.660171ZM4.68502 1.82801L1.16667 3.8385V11.8281L4.37725 9.9935C4.54659 9.89674 4.75309 9.89101 4.92754 9.97823L9.31498 12.1719L12.8333 10.1615V2.17183L9.62275 4.00645C9.45341 4.10322 9.24691 4.10895 9.07246 4.02173L4.68502 1.82801Z"
+                  fill="black"
+                  fill-rule="evenodd"
+                />
+                <path
+                  clip-rule="evenodd"
+                  d="M4.66671 0.583313C4.98887 0.583313 5.25004 0.84448 5.25004 1.16665V10.5C5.25004 10.8221 4.98887 11.0833 4.66671 11.0833C4.34454 11.0833 4.08337 10.8221 4.08337 10.5V1.16665C4.08337 0.84448 4.34454 0.583313 4.66671 0.583313Z"
+                  fill="black"
+                  fill-rule="evenodd"
+                />
+                <path
+                  clip-rule="evenodd"
+                  d="M9.33333 2.91669C9.6555 2.91669 9.91667 3.17785 9.91667 3.50002V12.8334C9.91667 13.1555 9.6555 13.4167 9.33333 13.4167C9.01117 13.4167 8.75 13.1555 8.75 12.8334V3.50002C8.75 3.17785 9.01117 2.91669 9.33333 2.91669Z"
+                  fill="black"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </button>
+            <button
+              aria-label="Use my location"
+              aria-selected="false"
+              class="sc-iBkjds cukANr"
+            >
+              <span>
+                Use my location
+              </span>
+              <svg
+                fill="none"
+                height="14"
+                viewBox="0 0 14 15"
+                width="14"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g
+                  clip-path="url(#location-clip)"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M7 1.66667C5.76232 1.66667 4.57534 2.15833 3.70017 3.0335C2.825 3.90867 2.33333 5.09566 2.33333 6.33333C2.33333 8.14053 3.50918 9.89415 4.79847 11.2551C5.43119 11.9229 6.06589 12.4697 6.54306 12.8497C6.72065 12.9911 6.87576 13.1089 7 13.2007C7.12424 13.1089 7.27935 12.9911 7.45694 12.8497C7.93411 12.4697 8.56881 11.9229 9.20153 11.2551C10.4908 9.89415 11.6667 8.14053 11.6667 6.33333C11.6667 5.09566 11.175 3.90867 10.2998 3.0335C9.42466 2.15833 8.23768 1.66667 7 1.66667ZM7 13.9167C6.67643 14.402 6.67628 14.4019 6.67611 14.4018L6.67444 14.4007L6.67056 14.3981L6.65719 14.3891C6.64583 14.3813 6.62963 14.3703 6.60891 14.3559C6.56748 14.3272 6.50794 14.2854 6.43288 14.2312C6.28282 14.1228 6.07038 13.9646 5.81631 13.7623C5.30911 13.3584 4.63131 12.775 3.95153 12.0574C2.61582 10.6475 1.16667 8.60947 1.16667 6.33333C1.16667 4.78624 1.78125 3.30251 2.87521 2.20854C3.96917 1.11458 5.4529 0.5 7 0.5C8.5471 0.5 10.0308 1.11458 11.1248 2.20854C12.2188 3.30251 12.8333 4.78624 12.8333 6.33333C12.8333 8.60947 11.3842 10.6475 10.0485 12.0574C9.36869 12.775 8.69089 13.3584 8.18369 13.7623C7.92962 13.9646 7.71718 14.1228 7.56712 14.2312C7.49206 14.2854 7.43253 14.3272 7.39109 14.3559C7.37037 14.3703 7.35417 14.3813 7.34282 14.3891L7.32945 14.3981L7.32556 14.4007L7.32433 14.4015C7.32416 14.4016 7.32358 14.402 7 13.9167ZM7 13.9167L7.32358 14.402C7.12763 14.5327 6.87205 14.5324 6.67611 14.4018L7 13.9167Z"
+                    fill="black"
+                    fill-rule="evenodd"
+                  />
+                  <path
+                    clip-rule="evenodd"
+                    d="M7 5.16667C6.35567 5.16667 5.83333 5.689 5.83333 6.33333C5.83333 6.97767 6.35567 7.5 7 7.5C7.64433 7.5 8.16667 6.97767 8.16667 6.33333C8.16667 5.689 7.64433 5.16667 7 5.16667ZM4.66667 6.33333C4.66667 5.04467 5.71134 4 7 4C8.28867 4 9.33333 5.04467 9.33333 6.33333C9.33333 7.622 8.28867 8.66667 7 8.66667C5.71134 8.66667 4.66667 7.622 4.66667 6.33333Z"
+                    fill="black"
+                    fill-rule="evenodd"
+                  />
+                </g>
+                <defs>
+                  <clippath
+                    id="location-clip"
+                  >
+                    <rect
+                      fill="white"
+                      height="14"
+                      transform="translate(0 0.5)"
+                      width="14"
+                    />
+                  </clippath>
+                </defs>
+              </svg>
+            </button>
+          </div>
+          <div
+            class="sc-ftvSup dgXOgY"
+          >
+            <span
+              aria-hidden="true"
+              class="sc-iqcoie dqjBXn"
+              style="padding-right: 5px;"
+            >
+              Imperial
+            </span>
+            <label
+              class="sc-papXJ QXzfr"
+            >
+              <input
+                aria-label="metric"
+                checked=""
+                class="sc-jqUVSM ZKOQe"
+                type="checkbox"
+              />
+              <span
+                class="sc-kDDrLX hFBZxa"
+              />
+            </label>
+            <span
+              aria-hidden="true"
+              class="sc-iqcoie ifRSZF"
+              style="padding-left: 5px;"
+            >
+              Metric
+            </span>
+          </div>
+        </div>
+        <div
+          aria-hidden="true"
+          class="sc-gKXOVf iPoBFP"
+        >
+          <div
+            style="position: relative; width: 100%; height: 400px; border-radius: 4px;"
+          />
+        </div>
+      </section>
+      <section
+        class="sc-evZas hVrVMl"
+        role="region"
+      >
+        <p
+          class="sc-breuTD jaGWVO"
+        >
+          Select locations from map or click use location 
+          <br />
+           to add new weather cards to your dashboard
+        </p>
+      </section>
+    </main>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
