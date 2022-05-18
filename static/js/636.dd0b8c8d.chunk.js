@@ -1,0 +1,2 @@
+(self.webpackChunklantern_weather=self.webpackChunklantern_weather||[]).push([[636],{636:function(e,n){n.printMsg=function(){console.log("This is a message from the demo package")}}}]);
+//# sourceMappingURL=636.dd0b8c8d.chunk.js.map

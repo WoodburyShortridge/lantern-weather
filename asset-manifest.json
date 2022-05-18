@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/lantern-weather/static/css/main.76193635.css",
+    "main.js": "/lantern-weather/static/js/main.5d9fa3b0.js",
+    "static/js/636.dd0b8c8d.chunk.js": "/lantern-weather/static/js/636.dd0b8c8d.chunk.js",
+    "static/js/787.7c712eac.chunk.js": "/lantern-weather/static/js/787.7c712eac.chunk.js",
+    "index.html": "/lantern-weather/index.html",
+    "main.76193635.css.map": "/lantern-weather/static/css/main.76193635.css.map",
+    "main.5d9fa3b0.js.map": "/lantern-weather/static/js/main.5d9fa3b0.js.map",
+    "636.dd0b8c8d.chunk.js.map": "/lantern-weather/static/js/636.dd0b8c8d.chunk.js.map",
+    "787.7c712eac.chunk.js.map": "/lantern-weather/static/js/787.7c712eac.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.76193635.css",
+    "static/js/main.5d9fa3b0.js"
+  ]
+}
