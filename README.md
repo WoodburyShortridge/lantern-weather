@@ -2,7 +2,7 @@
 
 Project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app)
 
-Demo: https://woodburyshortridge.github.io/lantern-weather/
+Demo: https://woodybury.github.io/lantern-weather/
 
 Created a quick & dirty Figma mockup for design/spec:
 
